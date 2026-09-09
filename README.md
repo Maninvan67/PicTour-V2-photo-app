@@ -1,29 +1,24 @@
-# PicTour V5
+# PicTour V5.1 — The Photographer Experience
 
-Photography-first field companion PWA. V5 is built directly from the V4.2 codebase, not the older V4.0 package.
+PicTour is a photography companion built around one principle:
 
-## V5 direction
-PicTour exists to inspire and assist the art of photography. AI is an assistant, never a replacement for the photographer. The app keeps human creative decisions at the centre: seeing, choosing, composing, timing, shooting, reviewing and reshooting.
+**AI assists the photographer. It never replaces the photographer.**
 
-## Included from the V4.x line
-- Shot Builder with light, location, intent and actual-kit awareness
-- Field Mode for use while shooting
-- Photo Lab with local browser-side image diagnostics
-- Wide Shot Scout
-- Daily practice / shot missions
-- Project Assistant for deliberate multi-shot projects
-- XP and skill progression stored locally
-- Save/share shot recipes
-- Solar direction and field conditions
+## What changed in V5.1
+- A clearer home experience: Go Shoot, Learn, Improve a Photo, Plan a Shoot, Build a Project.
+- Image-first/editorial presentation and fewer competing first actions.
+- Three photographic choices instead of a single prescribed creative answer.
+- Learning memory stored locally in the browser.
+- Anti-repetition mission generation using subject + visual principle + technique + intent.
+- Projects now vary their visual principles and techniques instead of cycling one fixed arc.
+- The core loop is explicit: SEE → NOTICE → CHOOSE → SHOOT → REVIEW → RESHOOT → REMEMBER.
+- Existing V5 capabilities retained: Shot Builder, live light/weather, Field Mode, Photo Lab, Wide Shot Scout, references, saved shots and project support.
 
-## New in V5
-- Explicit Free → Pro → Photographer craft path inside the app
-- Clear AI-assistance principle: AI supports the photographer rather than replacing creative judgment
-- Fresh V5 PWA cache/versioning so deployments do not silently reuse the V4 service-worker cache
-- Progress storage moved to `pictourProgress5` to prevent stale V4 state from being treated as V5
+## Freshness / sustainable information
+V5.1 moves away from a small fixed mission bank. It uses a structured content vocabulary and local learning history to deliberately vary future prompts. This gives PicTour a scalable foundation for thousands of combinations without claiming infinite unique teaching. A future cloud knowledge/curriculum engine can expand this substantially.
+
+## Privacy
+Learning history and progress are stored locally in the browser. Photo Lab and Wide Shot Scout perform their image analysis locally in the browser.
 
 ## Deploy
-Static PWA. Connect the repository to your Render Static Site and deploy the repository root.
-
-## Android
-Open the deployed site in Chrome on Android and use Chrome's install option to add PicTour to the launcher.
+Static site. Render can serve the repository using the included `render.yaml`, or the files can be hosted by any static web host.
