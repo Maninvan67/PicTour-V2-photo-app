@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: pictour-v2
+    name: pictour-v3
     runtime: static
     buildCommand: ""
     staticPublishPath: .
-    pullRequestPreviewsEnabled: true
+    autoDeployTrigger: commit

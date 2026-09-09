@@ -1,10 +1,1 @@
-{
-  "name":"PicTour — Photography Field Companion",
-  "short_name":"PicTour",
-  "start_url":"./",
-  "display":"standalone",
-  "background_color":"#08090b",
-  "theme_color":"#0a0b0d",
-  "description":"Build a field-ready photography shot plan around your light, location and gear.",
-  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
-}
+{"name":"PicTour 3","short_name":"PicTour","start_url":"./","display":"standalone","background_color":"#090a0c","theme_color":"#090a0c","description":"Photography field companion built around light, composition and your gear.","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}

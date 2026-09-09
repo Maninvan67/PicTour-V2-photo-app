@@ -1,38 +1,28 @@
-# PicTour V2
+# PicTour 3.0
 
-Photography-first PWA for Android and desktop.
+Photography-first PWA: light-aware shot planning, gear-aware recipes, composition coaching, field mode, saved setups and public reference imagery.
 
-## Fastest path to a working product
+## Deploy to Render
 
-1. Upload the contents of this folder to the PicTour GitHub repository.
-2. In Render, create a **Static Site** from that GitHub repository.
-3. Build command: leave blank.
-4. Publish directory: `.`
-5. Deploy.
-6. Open the Render URL on Android Chrome and choose **Install** / **Add to home screen**.
+This is a static site. Connect the GitHub repository to the existing Render Static Site and publish the folder containing `index.html` (root of this package if copied to the repo root). Render can auto-deploy on each push.
 
-## V2 features
+## What is new in 3.0
 
-- Photography-first dark cinematic interface
-- Location lookup
-- Current-location button
-- Shoot date
-- Camera + lenses + tripod + extra gear
-- Genre and creative-goal selection
-- Live sunrise/sunset and weather via Open-Meteo
-- Starting exposure/focus/drive recipe
-- Photographer-style composition advice
-- “Teach me” explanations for settings
-- Public visual references via Wikimedia Commons
-- Location scout information
-- Field checklist
-- Save shots locally on the device
+- Shot decision first: “Here’s the shot I’d make”
+- Light timeline: sunrise, golden hour, blue hour, sunset and night
+- Target-hour weather conditions
+- Gear-aware lens choice
+- Genre + creative-goal recipes
+- Composition sequence and field movement coaching
+- Three intentional variations for each shot
+- Exposure triangle teaching
+- Field Mode with live countdown to the target window
+- Save up to 20 setups locally
+- Share/copy shot recipes
+- OpenStreetMap location link and photography search
 - PWA install/offline shell
+- No custom backend required yet; public APIs are used directly from the browser
 
-## Architecture decision
+## Important
 
-V2 deliberately has **no custom backend**. That is intentional: it reduces deployment time and removes server/API-key setup for the first working product. The external API calls are isolated in the front-end and can be moved behind a PicTour backend later without redesigning the user experience.
-
-## Next production layer
-
-After V2 is field-tested, the highest-value backend additions are user accounts/cloud saves, richer place/POI data, forecast history, route planning, AI-assisted shot coaching, and subscription/billing.
+Forecasts, access, closures, wildlife and camera settings are not guarantees. Verify critical conditions and always judge the actual scene.
