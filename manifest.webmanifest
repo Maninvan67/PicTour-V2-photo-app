@@ -1,0 +1,10 @@
+{
+  "name":"PicTour — Photography Field Companion",
+  "short_name":"PicTour",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#08090b",
+  "theme_color":"#0a0b0d",
+  "description":"Build a field-ready photography shot plan around your light, location and gear.",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

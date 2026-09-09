@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pictour-v2
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
