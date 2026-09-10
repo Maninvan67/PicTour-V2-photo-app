@@ -1,33 +1,32 @@
-# Photocraft V1.1 — The Photography Companion
+# Photocraft V1.1.1 — The Photography Companion
 
 **AI assists the person. It never replaces the photographer.**
+
+## Why V1.1.1 exists
+
+First field use showed that a photography app cannot feel like a text dashboard. V1.1.1 adds a clearer visual geography, independent subject rooms, photographic diagrams, body-aware camera starting points, setup-help links, and reference connections throughout the experience.
 
 ## Product rule
 
 **The camera creates. Photocraft teaches.**
 
-V1.1 closes the core loop by adding a persistent **Personal Kit Bag** and **Scout**. The phone can scout a scene; the dedicated camera makes the final photograph.
+## Journey
 
-## V1.1 journey
+SHOOT → SUBJECTS → LEARN → SCOUT → REVIEW → RESHOOT → PROJECT → KIT BAG
 
-SEE → NOTICE → CHOOSE → SCOUT → SHOOT → REVIEW → RESHOOT → REMEMBER
-
-- **Shoot:** camera-aware photographic problems, intentions and approaches.
-- **Learn:** short lessons designed for a real camera.
-- **Scout:** upload a quick wide phone reference; Photocraft suggests photographic opportunities using the user’s actual kit.
-- **Review:** upload a photograph made with a dedicated camera; local visual measurements are translated into honest photographic observations.
-- **Reshoot:** one-variable experiment generated from the review.
-- **Project:** compact prompts for building a body of work.
-- **Personal Kit Bag:** camera, format, lenses, support and accessories persist locally and influence recommendations.
-- **Future equipment insight:** architecture is prepared for later analysis of actual use patterns, redundancy and capability gaps; V1.1 does not push purchases.
-
-## Kit Bag principle
-
-Photocraft should suggest **what you can make with what you own**, not generic gear recommendations. Future equipment suggestions should explain the photographic capability gained and should only appear after enough real usage data exists.
+### V1.1.1 improvements
+- **Visual-first structure:** photographic diagrams and visual subject cards make ideas easier to see before reading.
+- **Seven independent subject rooms:** Landscape, Street, Portrait, Wildlife, Architecture, Nature, Night.
+- **Camera-specific starting points:** Nikon Z f, Fujifilm X-T5, Sony α7-family guidance, plus a useful generic fallback.
+- **Setup help:** every camera tip links to an official camera guide/manual path where available.
+- **Reference-connected communication:** subject rooms, lessons, Scout, Review, Reshoot and Project all include a reference or next-learning connection.
+- **More passionate field language:** advice is framed around the photographic problem, the decision, and the reason to make the frame.
+- **Cleaner geography:** Reshoot is a dedicated destination but no longer buried in the learning flow; Subjects is a first-class destination.
+- **Kit-aware experience:** the Personal Kit Bag continues to influence Shoot and Scout.
 
 ## Important boundary
 
-The V1.1 Scout and Review engines use local image characteristics. They are intentionally not presented as human art direction or full vision-AI scene understanding. A future secure vision-AI backend can deepen both experiences without changing the photographer-first workflow.
+Scout and Review still use local image characteristics in this package. They are not presented as full vision-AI art direction. A future secure vision-AI backend can deepen scene understanding and critique without changing the photographer-first workflow.
 
 ## Deploy
 
@@ -35,4 +34,4 @@ Static site. Render can serve this repository using `render.yaml`.
 
 ## Validation
 
-Run `node --check` on the inline JavaScript extracted from `index.html`, then perform live smoke tests on desktop and Android. V1.1 has not been declared 100% runtime-certified until those tests are completed.
+`node --check` passes on the inline JavaScript extracted from `index.html`. Live browser and Android smoke testing still needs to be performed before declaring runtime certification.
