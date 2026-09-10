@@ -1,24 +1,38 @@
-# PicTour V5.1 — The Photographer Experience
+# Photocraft V1.1 — The Photography Companion
 
-PicTour is a photography companion built around one principle:
+**AI assists the person. It never replaces the photographer.**
 
-**AI assists the photographer. It never replaces the photographer.**
+## Product rule
 
-## What changed in V5.1
-- A clearer home experience: Go Shoot, Learn, Improve a Photo, Plan a Shoot, Build a Project.
-- Image-first/editorial presentation and fewer competing first actions.
-- Three photographic choices instead of a single prescribed creative answer.
-- Learning memory stored locally in the browser.
-- Anti-repetition mission generation using subject + visual principle + technique + intent.
-- Projects now vary their visual principles and techniques instead of cycling one fixed arc.
-- The core loop is explicit: SEE → NOTICE → CHOOSE → SHOOT → REVIEW → RESHOOT → REMEMBER.
-- Existing V5 capabilities retained: Shot Builder, live light/weather, Field Mode, Photo Lab, Wide Shot Scout, references, saved shots and project support.
+**The camera creates. Photocraft teaches.**
 
-## Freshness / sustainable information
-V5.1 moves away from a small fixed mission bank. It uses a structured content vocabulary and local learning history to deliberately vary future prompts. This gives PicTour a scalable foundation for thousands of combinations without claiming infinite unique teaching. A future cloud knowledge/curriculum engine can expand this substantially.
+V1.1 closes the core loop by adding a persistent **Personal Kit Bag** and **Scout**. The phone can scout a scene; the dedicated camera makes the final photograph.
 
-## Privacy
-Learning history and progress are stored locally in the browser. Photo Lab and Wide Shot Scout perform their image analysis locally in the browser.
+## V1.1 journey
+
+SEE → NOTICE → CHOOSE → SCOUT → SHOOT → REVIEW → RESHOOT → REMEMBER
+
+- **Shoot:** camera-aware photographic problems, intentions and approaches.
+- **Learn:** short lessons designed for a real camera.
+- **Scout:** upload a quick wide phone reference; Photocraft suggests photographic opportunities using the user’s actual kit.
+- **Review:** upload a photograph made with a dedicated camera; local visual measurements are translated into honest photographic observations.
+- **Reshoot:** one-variable experiment generated from the review.
+- **Project:** compact prompts for building a body of work.
+- **Personal Kit Bag:** camera, format, lenses, support and accessories persist locally and influence recommendations.
+- **Future equipment insight:** architecture is prepared for later analysis of actual use patterns, redundancy and capability gaps; V1.1 does not push purchases.
+
+## Kit Bag principle
+
+Photocraft should suggest **what you can make with what you own**, not generic gear recommendations. Future equipment suggestions should explain the photographic capability gained and should only appear after enough real usage data exists.
+
+## Important boundary
+
+The V1.1 Scout and Review engines use local image characteristics. They are intentionally not presented as human art direction or full vision-AI scene understanding. A future secure vision-AI backend can deepen both experiences without changing the photographer-first workflow.
 
 ## Deploy
-Static site. Render can serve the repository using the included `render.yaml`, or the files can be hosted by any static web host.
+
+Static site. Render can serve this repository using `render.yaml`.
+
+## Validation
+
+Run `node --check` on the inline JavaScript extracted from `index.html`, then perform live smoke tests on desktop and Android. V1.1 has not been declared 100% runtime-certified until those tests are completed.

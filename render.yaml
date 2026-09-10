@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: pictour-v3
+    name: photocraft-v1
     runtime: static
     buildCommand: ""
     staticPublishPath: .
